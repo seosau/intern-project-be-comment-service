@@ -10,7 +10,6 @@ export class CommentService {
     ){}
 
     async createCommemt(data: CreateCommentDto){
-        console.log('create=================')
         return this.commentRepo.createComment(data)
     }
  
